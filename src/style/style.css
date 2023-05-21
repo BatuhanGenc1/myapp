@@ -1,0 +1,40 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  margin-top: 1rem;
+}
+.cards .cardsParent {
+  display: flex;
+  justify-content: space-between;
+}
+.cards .cardsParent .card {
+  width: 30%;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  padding: 1rem;
+}
+.cards .cardsParent .card h3 {
+  color: #701996;
+}
+@media screen and (max-width: 850px) {
+  .cards .cardsParent {
+    display: block;
+  }
+  .cards .cardsParent .card {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .cards .cardsParent .card:first-child {
+    margin-top: 0 !important;
+  }
+}/*# sourceMappingURL=style.css.map */
